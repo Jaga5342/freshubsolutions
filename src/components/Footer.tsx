@@ -15,7 +15,7 @@ const Footer = () => {
                 className="h-12 w-12 object-contain"
               />
               <div className="text-xl font-bold">
-                <span className="text-white">Fresh</span>
+                <span className="text-white">Fres</span>
                 <span className="text-teal-400">hub</span>
                 <div className="text-sm text-gray-300 font-normal">Solutions</div>
               </div>
@@ -57,7 +57,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-teal-400" />
-                <span className="text-gray-300 text-sm">+91 XXXX-XXX-XXX</span>
+                <span className="text-gray-300 text-sm">+91 9791641289</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-teal-400" />
@@ -69,7 +69,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Freshub Solutions. All rights reserved. | Established 2025
+            © 2025 Freshub Solutions. All rights reserved
           </p>
         </div>
       </div>

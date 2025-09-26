@@ -7,6 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  // 👇 ADD THIS LINE — VERY IMPORTANT FOR GITHUB PAGES
-  base: '/freshubsolutions/' // replace with your repo name exactly
+  base: process.env.NODE_ENV === 'production' ? '/freshubsolutions/' : '/'
 })
